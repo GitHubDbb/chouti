@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2216C81C31263100F74CA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2216C71C31263100F74CA3 /* main.m */; };
+		BC2216CB1C31263100F74CA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2216CA1C31263100F74CA3 /* AppDelegate.m */; };
+		BC2216D11C31263100F74CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2216CF1C31263100F74CA3 /* Main.storyboard */; };
+		BC2216D31C31263100F74CA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2216D21C31263100F74CA3 /* Images.xcassets */; };
+		BC2216D61C31263100F74CA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2216D41C31263100F74CA3 /* LaunchScreen.xib */; };
+		BC2216E21C31263100F74CA3 /* choutiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2216E11C31263100F74CA3 /* choutiTests.m */; };
+		BC2216ED1C31269B00F74CA3 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2216EC1C31269B00F74CA3 /* CenterViewController.m */; };
+		BC2216F01C3126A700F74CA3 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2216EF1C3126A700F74CA3 /* LeftViewController.m */; };
+		BC2216F31C3126CB00F74CA3 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2216F21C3126CB00F74CA3 /* DrawViewController.m */; };
+		BC2216F51C31298C00F74CA3 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BC2216F41C31298C00F74CA3 /* bg.png */; };
+		BC2216F81C315AAA00F74CA3 /* VIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2216F71C315AAA00F74CA3 /* VIPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC2216DC1C31263100F74CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2216BA1C31263100F74CA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2216C11C31263100F74CA3;
+			remoteInfo = chouti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2216C21C31263100F74CA3 /* chouti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chouti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2216C61C31263100F74CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2216C71C31263100F74CA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC2216C91C31263100F74CA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC2216CA1C31263100F74CA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC2216D01C31263100F74CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC2216D21C31263100F74CA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC2216D51C31263100F74CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC2216DB1C31263100F74CA3 /* choutiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = choutiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2216E01C31263100F74CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2216E11C31263100F74CA3 /* choutiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = choutiTests.m; sourceTree = "<group>"; };
+		BC2216EB1C31269B00F74CA3 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		BC2216EC1C31269B00F74CA3 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		BC2216EE1C3126A700F74CA3 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		BC2216EF1C3126A700F74CA3 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		BC2216F11C3126CB00F74CA3 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		BC2216F21C3126CB00F74CA3 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		BC2216F41C31298C00F74CA3 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		BC2216F61C315AAA00F74CA3 /* VIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPViewController.h; sourceTree = "<group>"; };
+		BC2216F71C315AAA00F74CA3 /* VIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2216BF1C31263100F74CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2216D81C31263100F74CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2216B91C31263100F74CA3 = {
+			isa = PBXGroup;
+			children = (
+				BC2216C41C31263100F74CA3 /* chouti */,
+				BC2216DE1C31263100F74CA3 /* choutiTests */,
+				BC2216C31C31263100F74CA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2216C31C31263100F74CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2216C21C31263100F74CA3 /* chouti.app */,
+				BC2216DB1C31263100F74CA3 /* choutiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2216C41C31263100F74CA3 /* chouti */ = {
+			isa = PBXGroup;
+			children = (
+				BC2216F41C31298C00F74CA3 /* bg.png */,
+				BC2216C91C31263100F74CA3 /* AppDelegate.h */,
+				BC2216CA1C31263100F74CA3 /* AppDelegate.m */,
+				BC2216F61C315AAA00F74CA3 /* VIPViewController.h */,
+				BC2216F71C315AAA00F74CA3 /* VIPViewController.m */,
+				BC2216F11C3126CB00F74CA3 /* DrawViewController.h */,
+				BC2216F21C3126CB00F74CA3 /* DrawViewController.m */,
+				BC2216EB1C31269B00F74CA3 /* CenterViewController.h */,
+				BC2216EC1C31269B00F74CA3 /* CenterViewController.m */,
+				BC2216EE1C3126A700F74CA3 /* LeftViewController.h */,
+				BC2216EF1C3126A700F74CA3 /* LeftViewController.m */,
+				BC2216CF1C31263100F74CA3 /* Main.storyboard */,
+				BC2216D21C31263100F74CA3 /* Images.xcassets */,
+				BC2216D41C31263100F74CA3 /* LaunchScreen.xib */,
+				BC2216C51C31263100F74CA3 /* Supporting Files */,
+			);
+			path = chouti;
+			sourceTree = "<group>";
+		};
+		BC2216C51C31263100F74CA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC2216C61C31263100F74CA3 /* Info.plist */,
+				BC2216C71C31263100F74CA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC2216DE1C31263100F74CA3 /* choutiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2216E11C31263100F74CA3 /* choutiTests.m */,
+				BC2216DF1C31263100F74CA3 /* Supporting Files */,
+			);
+			path = choutiTests;
+			sourceTree = "<group>";
+		};
+		BC2216DF1C31263100F74CA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC2216E01C31263100F74CA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2216C11C31263100F74CA3 /* chouti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2216E51C31263100F74CA3 /* Build configuration list for PBXNativeTarget "chouti" */;
+			buildPhases = (
+				BC2216BE1C31263100F74CA3 /* Sources */,
+				BC2216BF1C31263100F74CA3 /* Frameworks */,
+				BC2216C01C31263100F74CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chouti;
+			productName = chouti;
+			productReference = BC2216C21C31263100F74CA3 /* chouti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC2216DA1C31263100F74CA3 /* choutiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2216E81C31263100F74CA3 /* Build configuration list for PBXNativeTarget "choutiTests" */;
+			buildPhases = (
+				BC2216D71C31263100F74CA3 /* Sources */,
+				BC2216D81C31263100F74CA3 /* Frameworks */,
+				BC2216D91C31263100F74CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2216DD1C31263100F74CA3 /* PBXTargetDependency */,
+			);
+			name = choutiTests;
+			productName = choutiTests;
+			productReference = BC2216DB1C31263100F74CA3 /* choutiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2216BA1C31263100F74CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DBBPerson;
+				TargetAttributes = {
+					BC2216C11C31263100F74CA3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BC2216DA1C31263100F74CA3 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BC2216C11C31263100F74CA3;
+					};
+				};
+			};
+			buildConfigurationList = BC2216BD1C31263100F74CA3 /* Build configuration list for PBXProject "chouti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2216B91C31263100F74CA3;
+			productRefGroup = BC2216C31C31263100F74CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2216C11C31263100F74CA3 /* chouti */,
+				BC2216DA1C31263100F74CA3 /* choutiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2216C01C31263100F74CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2216D11C31263100F74CA3 /* Main.storyboard in Resources */,
+				BC2216D61C31263100F74CA3 /* LaunchScreen.xib in Resources */,
+				BC2216F51C31298C00F74CA3 /* bg.png in Resources */,
+				BC2216D31C31263100F74CA3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2216D91C31263100F74CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2216BE1C31263100F74CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2216F81C315AAA00F74CA3 /* VIPViewController.m in Sources */,
+				BC2216CB1C31263100F74CA3 /* AppDelegate.m in Sources */,
+				BC2216F31C3126CB00F74CA3 /* DrawViewController.m in Sources */,
+				BC2216F01C3126A700F74CA3 /* LeftViewController.m in Sources */,
+				BC2216C81C31263100F74CA3 /* main.m in Sources */,
+				BC2216ED1C31269B00F74CA3 /* CenterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2216D71C31263100F74CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2216E21C31263100F74CA3 /* choutiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2216DD1C31263100F74CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2216C11C31263100F74CA3 /* chouti */;
+			targetProxy = BC2216DC1C31263100F74CA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC2216CF1C31263100F74CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2216D01C31263100F74CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC2216D41C31263100F74CA3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2216D51C31263100F74CA3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2216E31C31263100F74CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC2216E41C31263100F74CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2216E61C31263100F74CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chouti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC2216E71C31263100F74CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chouti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC2216E91C31263100F74CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = choutiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chouti.app/chouti";
+			};
+			name = Debug;
+		};
+		BC2216EA1C31263100F74CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = choutiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chouti.app/chouti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2216BD1C31263100F74CA3 /* Build configuration list for PBXProject "chouti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2216E31C31263100F74CA3 /* Debug */,
+				BC2216E41C31263100F74CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2216E51C31263100F74CA3 /* Build configuration list for PBXNativeTarget "chouti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2216E61C31263100F74CA3 /* Debug */,
+				BC2216E71C31263100F74CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC2216E81C31263100F74CA3 /* Build configuration list for PBXNativeTarget "choutiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2216E91C31263100F74CA3 /* Debug */,
+				BC2216EA1C31263100F74CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2216BA1C31263100F74CA3 /* Project object */;
+}
